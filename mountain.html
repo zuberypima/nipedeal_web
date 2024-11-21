@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <title>MOUNTAIN TREKKING & HIKING</title>
+</head>
+
+<body>
+
+    <div id="navbar-container"></div>
+    <script>
+        // Load the navbar from navbar.html
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">MOUNTAIN TREKKING & HIKING</h1>
+                        <div class="line"></div>
+                        <hr>
+                        <p>
+                            Kilimanjaro mountain is the highest pick in Africa, spread to a total area of 1,688 square
+                            kilometers wide and stands at 5896m up to the sky. Amazingly it is the only snowing mountain
+                            in equator region, where the area is well marked as warming area on earth. But also, is the
+                            most visited mountain in the whole African continent.
+                            Rather Tanzania has other beautiful and attractive mountains to trek, as Mountain Meru and
+                            Oldoinyo Lengai in the northern circuit, and we have Uluguru mountains, Usambara mountains,
+                            Udzungwa Mountains and Mahale Mountains.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/mountain1.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/mountain2.jpg" data-fancybox="gallery" class="iconbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/mountain3.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/mountain3.jpg" data-fancybox="gallery" class="iconbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/mountain4.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/mountain4.jpg" data-fancybox="gallery" class="iconbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/mountain5.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/mountain5.jpg" data-fancybox="gallery" class="iconbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/mountain6.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/mountain6.jpg" data-fancybox="gallery" class="iconbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/mountain8.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/mountain8.jpg" data-fancybox="gallery" class="iconbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
