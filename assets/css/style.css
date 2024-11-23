@@ -345,7 +345,7 @@ img {
 
 .bg-image9 {
   background-image: linear-gradient(
-      rgba(var(--c-brand-rgb), 0.1),
+      rgba(var(--c-brand-rgb), 1),
       rgba(var(--c-brand-rgb), 0.438)
     ),
     url(../images/job1.jpg);
