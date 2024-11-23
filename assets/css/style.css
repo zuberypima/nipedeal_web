@@ -282,7 +282,7 @@ img {
 }
 .bg-image1 {
   background-image: linear-gradient(
-      rgba(var(--c-brand-rgb), 0.1),
+      rgba(var(--c-brand-rgb), 1),
       rgba(var(--c-brand-rgb), 0.438)
     ),
     url(../images/jobofer.jpg);
@@ -290,7 +290,7 @@ img {
 }
 .bg-image2 {
   background-image: linear-gradient(
-      rgba(var(--c-brand-rgb), 0.1),
+      rgba(var(--c-brand-rgb), 1),
       rgba(var(--c-brand-rgb), 0.438)
     ),
     url(../images/standard.webp);
@@ -300,13 +300,57 @@ img {
 
 .bg-image4 {
   background-image: linear-gradient(
-      rgba(var(--c-brand-rgb), 0.1),
+      rgba(var(--c-brand-rgb), 1),
       rgba(var(--c-brand-rgb), 0.438)
     ),
     url(../images/job1.jpg);
   color: whitesmoke;
 }
 
+.bg-image5 {
+  background-image: linear-gradient(
+      rgba(var(--c-brand-rgb), 1),
+      rgba(var(--c-brand-rgb), 0.438)
+    ),
+    url(../images/profileu_customization.jpg);
+  color: whitesmoke;
+}
+
+.bg-image6 {
+  background-image: linear-gradient(
+      rgba(var(--c-brand-rgb), 1),
+      rgba(var(--c-brand-rgb), 0.438)
+    ),
+    url(../images/cunseling.jpg);
+  color: whitesmoke;
+}
+
+.bg-image7 {
+  background-image: linear-gradient(
+      rgba(var(--c-brand-rgb), 1),
+      rgba(var(--c-brand-rgb), 0.438)
+    ),
+    url(../images/interview.jpg);
+  color: whitesmoke;
+}
+
+.bg-image8 {
+  background-image: linear-gradient(
+      rgba(var(--c-brand-rgb), 1),
+      rgba(var(--c-brand-rgb), 0.438)
+    ),
+    url(../images/skills.jpg);
+  color: whitesmoke;
+}
+
+.bg-image9 {
+  background-image: linear-gradient(
+      rgba(var(--c-brand-rgb), 0.1),
+      rgba(var(--c-brand-rgb), 0.438)
+    ),
+    url(../images/job1.jpg);
+  color: whitesmoke;
+}
 .service::after {
   content: "";
   width: 40px;
